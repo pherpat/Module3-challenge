@@ -1,18 +1,27 @@
 // Assignment code here
-import java.util.Random;
 
+// declare all characters
+const upperCase ='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const lowerCase = 'abcdefghijklmnopqrstuvwxyz';
+const numbers = '0123456789';
+const specialcharacters = '~`!@#$%^&*()_-+={[}]|\:;"<>?,./';
 
+characters = upperCase + lowerCase + numbers + specialcharacters;
+letters = upperCase + lowerCase;
+special = numbers + specialcharacters;
 
-var password = {
-  upperCase: '"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"',
-  lowerCase: '"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"',
-  specialCharacters: '"!","@","#","$","%","^","&","*","(",")","_","-","=","+","[","]","{","}","\","|",":",";","<",",",">",".","/","?","~","`","""',
-  numeric: '1,2,3,4,5,6,7,8,9,0',
-  combinedChars: { 
-    upperCase + lowerCase + specialCharacters + nums,
-    Random rand = new Random(),
-  // char [] password = new char[length],
+function generateString(length) {
+    let result = ' ';
+    const charactersLength = characters.length;
+    for ( let i = 0; i < length; i++ ) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+
+    return result;
 }
+
+// y = characters;
+// n = 
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -26,9 +35,16 @@ function writePassword() {
 
 }
 
+function generatePassword() {
+//return (generateString(10));
+lengthInput = prompt("How many character do you need?");
+fuckInput = prompt("do you need all characters( uppercase, lowercase, numbers, specialchar?");
+  // if  "yes" pick 8 random characters() 
+  // else ask 
+return(generateString(lengthInput));
+
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-// var x = prompt("Enter your password:");
-// document.write("New password");
 
