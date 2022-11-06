@@ -2,21 +2,21 @@
 
 ## Purpose
 
-The purpose of this assigment was to clean up the HTML code and add proper semantic HTML elements to it. Making sure that the elements follow a logical structure, and that the images have accessible attributes. Also adding a descriptive title to the page, along with cleaning and consolidating the CSS. 
+The purpose of this assigment was to create an application that an user can utilize to generate a random password. To do so I had to create some functions to run the application in the browser, following the acceptance criteria.
 
 
 ## Screenshot
 
-You can view a screenshot of the webpage here: https://github.com/pherpat/module1-challenge/blob/main/assets/module-1-screenshot.jpg
+You can view a screenshot of the webpage here: https://github.com/pherpat/Module3-challenge/blob/main/Module3-challenge-screenshot.png
 
 
 ## Deployed Site
 
-The deployed site url: https://pherpat.github.io/module1-challenge/
+The deployed site url: https://pherpat.github.io/Module3-challenge/
 
 ## Repository
 
-The source code for the repository: https://github.com/pherpat/module1-challenge
+The source code for the repository: https://github.com/pherpat/Module3-challenge
 
 
 
