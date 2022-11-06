@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this assigment was to create an application that an user can utilize to generate a random password. To do so I had to create some functions to run the application in the browser, following the acceptance criteria.
+The purpose of this assignment was to create an application that an user can utilize to generate a random password. To do so I had to create some functions to run the application in the browser, following the acceptance criteria.
 
 
 ## Screenshot
